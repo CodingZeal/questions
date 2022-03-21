@@ -2,6 +2,7 @@
 * Docker Desktop installed - [Docker Desktop](https://www.docker.com/products/docker-desktop)
 
 **Setup**
+In the root level of the 'questions' repository:
 * `docker-compose build`
 * `docker-compose run web bundle exec rails db:create db:setup`
 * `docker-compose run web yarn`
